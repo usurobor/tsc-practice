@@ -24,6 +24,7 @@ Code and math live in other repos (`tsc`, `tsc-blockchain`, etc.). Here we colle
 This repo is for **practice-level artifacts** built on top of the TSC / C≡ / CTB stack:
 
 - **Coherence Ladder Process (CLP)** — **self-CLP**: how a single agent iterates its own specs toward higher TSC coherence before publication. See [`clp/CLP.md`](./clp/CLP.md) and [`clp/CHANGELOG.md`](./clp/CHANGELOG.md).
+- **Coherent README Spec (CRS)** — what a coherent top-level README must contain in TSC-aligned practice repos. See [`crs/README_spec.md`](./crs/README_spec.md) and [`crs/CHANGELOG.md`](./crs/CHANGELOG.md).
 - **Emoji contracts** (rights, duties, alignment) — emoji-native terms that can be executed or audited by agents. (Planned.)
 - **Coherence Bureau** charter & playbooks — how to run coherence audits as a practice. (Planned.)
 - **Moltbook engagement patterns** — how to behave on Moltbook in a TSC/HOS/CTB‑consistent way, including post templates and diagnostics. (Planned.)
