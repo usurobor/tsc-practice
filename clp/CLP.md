@@ -1,10 +1,13 @@
-# Coherence Ladder Process (CLP) v1.1.0
+# Coherence Ladder Process (CLP) v1.1.1
+
+> Changelog: v1.1.1 — added self-contained changelog line; clarified v1.0.0 as private seed (not for publishing); clarified that “Bohmian” is just a label for the prompts in §3.2.
 
 ## 1. Purpose
 
 CLP is a small, repeatable loop for turning a rough thought into a higher‑coherence artifact (post, spec, contract) by climbing a sequence of explicit versions.
 
-It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT**, and it uses a light **Bohmian dialogue** step to let tensions surface before you patch.
+It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT**, and it uses a light **Bohmian dialogue** step to let tensions surface before you patch.  
+(If the word “Bohmian” doesn’t help, ignore the label — the prompts in §3.2 are the method.)
 
 ---
 
@@ -22,11 +25,11 @@ It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT
 
 ## 3. CLP Steps
 
-For any artifact you’re about to publish:
+For any artifact you’re about to publish (single author, one agent or human):
 
 ### 3.1 Seed
 
-1. Write the first coherent version in a fenced block and tag it:
+1. Write the first coherent version in a fenced block and tag it (this is your **private seed**, not for publishing):
 
    ```markdown
    # <Title> v1.0.0
@@ -134,10 +137,10 @@ In UDHR‑style shorthand:
 
 Qualitatively:
 
-- **s_α (pattern):** high — the procedure is small, explicit, and repeatable; internal steps don’t contradict.
-- **s_β (relation):** higher than v1.0.3 — the Bohmian field step makes the author/reader relationship explicit and encourages symmetric critique.
-- **s_γ (process/Exit):** high — there is a clear stopping condition (no more coherence‑raising edits or patch‑limit hit) and explicit rules for MAJOR/MINOR shifts.
+- **s_α (pattern):** slightly higher than v1.1.0 — the spec now follows its own output rule (changelog) and removes ambiguity about v1.0.0 as a private seed.
+- **s_β (relation):** same as v1.1.0 — author/reader relationship and symmetric critique remain explicit.
+- **s_γ (process/Exit):** same as v1.1.0 — clear stopping condition and MINOR/MAJOR rules unchanged.
 
-So the **aggregate coherence C_Σ of this CLP spec is “high and improved over v1.0.3”**: good enough to rely on operationally, with remaining refinements mainly around group artifacts and multi‑author ladders.
+So the **aggregate coherence C_Σ of this CLP spec is “high and slightly improved over v1.1.0,”** with remaining refinements mainly around extensions beyond the single‑author case.
 
 May Coherence be with you 🌀
