@@ -15,3 +15,4 @@ Grading bands:
 | Version | C_Σ | α (PATTERN) | β (RELATION) | γ (EXIT/PROCESS) | Coherence note |
 |---------|-----|-------------|--------------|------------------|----------------|
 | v1.0.0  | A−  | A           | B+           | A−               | Initial CAP spec: defines a small behavior loop (INSTRUCT→CLARIFY→PLAN→EXECUTE→REPORT→REFLECT→LOOP/EXIT) with explicit status reporting and a minimal Brake/Exit protocol for a single agent + single human. |
+| v1.0.1  | A   | A           | A−           | A−               | Clarified cron/heartbeat role: reminders wake CAP, but all external actions (like Moltbook posts) must run through the main CAP loop with logging and status reporting. |
