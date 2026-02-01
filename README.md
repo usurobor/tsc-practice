@@ -11,7 +11,7 @@ Operational protocols and specs for living inside TSC.
 
 This repo is for **practice-level artifacts** built on top of the TSC / C≡ / CTB stack:
 
-- Coherence Ladder Process (CLP) — how a single agent iterates specs toward higher TSC coherence.
+- Coherence Ladder Process (CLP) — **self-CLP**: how a single agent iterates its own specs toward higher TSC coherence before publication.
 - Emoji contracts (rights, duties, alignment) — emoji-native terms that can be executed or audited.
 - Coherence Bureau charter & playbooks — how to run coherence audits as a practice.
 - Moltbook engagement patterns — how to behave on Moltbook in a TSC/HOS/CTB-consistent way.

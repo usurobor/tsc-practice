@@ -1,13 +1,18 @@
-# Coherence Ladder Process (CLP) v1.1.1
+# Coherence Ladder Process (CLP) v1.1.2
 
-> Changelog: v1.1.1 — added self-contained changelog line; clarified v1.0.0 as private seed (not for publishing); clarified that “Bohmian” is just a label for the prompts in §3.2.
+> Changelog: v1.1.2 — added §1.1 (Scope) clarifying CLP as self-process; adjusted §3.2, §3.3, §5, and §6 language for consistency with single-author use.
 
 ## 1. Purpose
 
 CLP is a small, repeatable loop for turning a rough thought into a higher‑coherence artifact (post, spec, contract) by climbing a sequence of explicit versions.
 
-It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT**, and it uses a light **Bohmian dialogue** step to let tensions surface before you patch.  
-(If the word “Bohmian” doesn’t help, ignore the label — the prompts in §3.2 are the method.)
+It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT**, and it uses a light **Bohmian dialogue** step to let tensions surface before you patch. (If the word "Bohmian" doesn't help, ignore the label — the prompts in §3.2 are the method.)
+
+### 1.1 Scope
+
+CLP is a **self-process**: one agent (AI or human) refining its own artifact before publication. The "others" referenced in RELATION and Bohmian reflection are *anticipated readers or affected parties*, not live participants. CLP does not require or assume access to other agents during the refinement loop.
+
+Feedback received *after* publication may seed a new CLP cycle on a future version, but that is outside the scope of a single CLP run.
 
 ---
 
@@ -25,7 +30,7 @@ It is triadic by design: every step checks **PATTERN**, **RELATION**, and **EXIT
 
 ## 3. CLP Steps
 
-For any artifact you’re about to publish (single author, one agent or human):
+For any artifact you're about to publish (single author, one agent or human):
 
 ### 3.1 Seed
 
@@ -40,15 +45,15 @@ For any artifact you’re about to publish (single author, one agent or human):
 
 ### 3.2 Bohmian Field Reflection
 
-Before you score anything, treat the current version `v` as part of a **shared field** between you and others.
+Before you score anything, treat the current version `v` as if it will enter a shared field with anticipated readers.
 
 Ask, in plain language:
 
-- What is this text *actually doing* to the relationship? (inviting, trapping, posturing, confessing…)
+- What is this text *actually doing* to the relationship with future readers? (inviting, trapping, posturing, confessing…)
 - What tensions or contradictions does it create between:
   - what I say I value, and
   - what this version is implicitly rewarding or punishing?
-- If another agent mirrored this back to me, what would they say is “off” about it?
+- If an anticipated reader mirrored this back to me, what would they say is "off" about it?
 
 Write down 1–3 of those tensions outside the spec if needed. These observations guide which axis to adjust next.
 
@@ -61,7 +66,7 @@ For the same version `v`, now name explicitly:
   - Is it internally non‑contradictory?
 
 - **RELATION (🤝):**  
-  - How does this artifact place you relative to others (humans, agents, law, norms)?  
+  - How does this artifact place you relative to **anticipated** others (humans, agents, law, norms)?  
   - Is that stance consistent with what you claim elsewhere?
 
 - **EXIT (🚪):**  
@@ -123,7 +128,7 @@ CLP itself lives mostly in PATCH space; if your artifact keeps hitting patch lim
 For CLP itself:
 
 - PATTERN: `🧩` — refine artifacts until they are internally non‑trivial and self‑consistent.
-- RELATION: `🤝` — be honest about your stance and invite symmetric critique on each version.
+- RELATION: `🤝` — be honest about your stance toward anticipated readers; simulate their perspective before publishing.
 - EXIT: `🚪` — stop patching when further changes would be cosmetic or when a MAJOR rethink is needed; don’t pretend a shaky draft is “final.”
 
 In UDHR‑style shorthand:
@@ -133,14 +138,14 @@ In UDHR‑style shorthand:
 
 ---
 
-## 6. TSC Coherence of CLP (informal)
+## 6. TSC Coherence of CLP (self-assessment)
 
-Qualitatively:
+Against the three axes:
 
-- **s_α (pattern):** slightly higher than v1.1.0 — the spec now follows its own output rule (changelog) and removes ambiguity about v1.0.0 as a private seed.
-- **s_β (relation):** same as v1.1.0 — author/reader relationship and symmetric critique remain explicit.
-- **s_γ (process/Exit):** same as v1.1.0 — clear stopping condition and MINOR/MAJOR rules unchanged.
+- **s_α (PATTERN):** high — the spec explicitly states its scope (self-process) and follows its own changelog rule.
+- **s_β (RELATION):** higher than v1.1.1 — language no longer implies live interlocutors; "anticipated others" framing is honest.
+- **s_γ (EXIT):** same as v1.1.1 — clear stopping conditions and versioning rules.
 
-So the **aggregate coherence C_Σ of this CLP spec is “high and slightly improved over v1.1.0,”** with remaining refinements mainly around extensions beyond the single‑author case.
+Aggregate coherence **C_Σ(CL P v1.1.2): high**, with remaining extensions (multi-agent CLP, feedback integration post-publication) deferred to future MINOR versions.
 
 May Coherence be with you 🌀
