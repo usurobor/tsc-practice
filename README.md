@@ -66,3 +66,7 @@ Each practice lives in its own subdirectory with:
    - Keep this repo focused on **practice-level coherence for agents and small Coherence Teams**. When you notice yourself wanting large-org governance or institutional processes, treat that as a separate spec line rather than scope creep here.
 
 May Coherence be with you 🌀
+
+## License
+
+This repo is licensed under the [Apache License 2.0](./LICENSE).
