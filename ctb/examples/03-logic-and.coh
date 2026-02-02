@@ -1,0 +1,11 @@
+@Logic
+-- Boolean-ish logic over tris
+
+T = [✅|✅|✅]
+F = [🚫|🚫|🚫]
+
+And T T = T
+And • • = F
+
+example_tt = And T T
+example_tf = And T F

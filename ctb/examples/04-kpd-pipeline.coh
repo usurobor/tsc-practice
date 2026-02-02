@@ -1,0 +1,15 @@
+@KPD
+-- Data + pipeline example from the CTB spec
+
+-- data
+t = [🚪|[⚠️|📜|🛑]|🚪]
+
+-- nf as defined in-spec (reference implementation)
+nf _                 = _
+nf [ _ | _ | _ ]     = _
+nf [ l | c | r ]     = [ nf l | nf c | nf r ]
+nf x                 = x
+
+CΣ x = x  -- placeholder metric (identity)
+
+score = t |> nf |> CΣ

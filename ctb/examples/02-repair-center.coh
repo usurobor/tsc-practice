@@ -1,0 +1,8 @@
+@Repair
+-- Repair the center of a tri only when it is Wholeness
+
+repair [l|_|r] = [l|✨|r]
+repair x        = x
+
+example_in  = [🧱|_|🧱]
+example_out = repair example_in
